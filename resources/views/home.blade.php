@@ -28,7 +28,7 @@
 
     <section class="py-5 text-center">
       <div class="container">
-        <h1 class="jumbotron-heading">Commandez votre <br><span class="badge badge-light">nouveau</span> <br>T-Shirt <span class="badge badge-primary ">préféré </span>!</h1>
+        <h1 class="jumbotron-heading">Commandez votre <br>nouveau <br>T-Shirt préféré !</h1>
         <p class="lead text-muted">Dénichez THE T-Shirt de votre série, films préféré(e).</p>
 
       </div>
@@ -38,18 +38,10 @@
 
   </main>
 
-  <footer class="text-muted py-5">
-    <div class="container">
-      <p class="float-right">
-        <a href="#">Back to top</a>
-      </p>
-      <p>Mon T-Shirt</p>
-    </div>
-  </footer>
+  @include('layouts.footer')
 
 
-  <script src="{{asset('js/bootstrap.bundle.min.js')}}" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
-
+  @include('layouts.js')
 
 </body>
 
