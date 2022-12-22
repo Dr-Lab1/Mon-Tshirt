@@ -14,17 +14,17 @@
           <img src="{{ asset('produits/'.$produit->photo_principale) }}" alt="image card">
 
           <div class="card-body">
-            <p class="card-text">{{$produit -> nom}} <br> {{$produit -> description}} <br>
+            <p class="card-text">{{$produit->nom}} <br> {{$produit->description}} <br>
 
-              <span class="badge badge-info"><a href="{{ route('categorie', ['id' => $produit -> category -> id]) }}">{{ $produit -> category -> nom }}</a></span>
+              <span class="badge badge-info"><a href="{{ route('categorie', ['id' => $produit->category -> id]) }}">{{ $produit -> category -> nom }}</a></span>
 
             </p>
             <div class="d-flex justify-content-between align-items-center">
               <div class="d-flex justify-content-between align-items-center">
                 <span class="price">{{ $produit->prixTTC() }} €</span>
-                <a href="{{ route('voir_produit', ['id' => $produit -> id])}}" class="btn btn-sm btn-outline-secondary"><i class="fas fa-eye"></i></a>
+                <a href="{{ route('voir_produit', ['id' => $produit->id])}}" class="btn btn-sm btn-outline-secondary"><i class="fas fa-eye"></i></a>
               </div>
-              <small class="text-muted">9 mins</small>
+              <small class="text-muted">{{ date_format($produit->created_at, 'd.M.Y H:i') }}</small>
             </div>
           </div>
         </div>
