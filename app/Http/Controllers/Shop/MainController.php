@@ -12,28 +12,36 @@ class MainController extends Controller
 {
     public function index() {
         $produits = Produit::with('category') -> get();
-        // $categories = Category::where('is_online', 1)->get();
 
-        return view('shop.index', compact('produits'));
+        $filtre = ['is_online' => 1, 'parent_id' => null];
+        $categories = Category::where($filtre)->get();
+
+        return view('shop.index', compact('produits', 'categories'));
     }
     
     public function produit (Request $request) {
 
-        $produit = Produit::find($request -> id);
+        $produit = Produit::findOrFail($request -> id);
 
         // dd($produit->recommandations()->get());
 
-        return view('shop.produit', compact('produit'));
+        $filtre = ['is_online' => 1, 'parent_id' => null];
+        $categories = Category::where($filtre)->get();
+
+        return view('shop.produit', compact('produit', 'categories'));
 
     }
 
     public function categorie (Request $request){
 
         // $produits = Produit::where('category_id', $request->id)->get();
-        $category = Category::find($request -> id);
+        $category = Category::findOrFail($request -> id);
         $produits = $category -> produits();
 
-        return view('shop.categorie', compact('produits', 'category'));
+        $filtre = ['is_online' => 1, 'parent_id' => null];
+        $categories = Category::where($filtre)->get();
+
+        return view('shop.categorie', compact('produits', 'category', 'categories'));
     }
 
     public function tag(Request $request) {
@@ -42,6 +50,9 @@ class MainController extends Controller
         
         $produits = $tag -> produits;
 
-        return view('shop.categorie', compact('produits', 'tag'));
+        $filtre = ['is_online' => 1, 'parent_id' => null];
+        $categories = Category::where($filtre)->get();
+
+        return view('shop.categorie', compact('produits', 'tag', 'categories'));
     }
 }

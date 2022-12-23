@@ -14,7 +14,7 @@ class AppServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        view()->composer(['shop', 'home'], HeaderComposer::class);
+        // view()->composer(['shop', 'home'], 'App\Http\ViewComposers\HeaderComposer');
     }
 
     /**

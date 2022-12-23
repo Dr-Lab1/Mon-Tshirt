@@ -2,11 +2,12 @@
 
 namespace App\Http\Controllers\Shop;
 
-use App\Http\Controllers\Controller;
+use Cart;
 use App\Models\Produit;
 // use Darryldecode\Cart\Cart;
-use Cart;
+use App\Models\Category;
 use Illuminate\Http\Request;
+use App\Http\Controllers\Controller;
 
 class CartController extends Controller
 {
@@ -49,6 +50,9 @@ class CartController extends Controller
 
         $tva = $total_ttc - $total_ht;
 
-        return view('cart.index', compact('content', 'total_ttc', 'total_ht', 'tva'));
+        $filtre = ['is_online' => 1, 'parent_id' => null];
+        $categories = Category::where($filtre)->get();
+
+        return view('cart.index', compact('content', 'total_ttc', 'total_ht', 'tva', 'categories'));
     }
 }
