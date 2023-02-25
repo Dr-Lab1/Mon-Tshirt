@@ -3,9 +3,8 @@ Un site e-commerce, intégralement monté avec *laravel* et le moteur de templat
 
 Pour voir le site qui est déjà en production <a href="http://mon-tshirt.42web.io">cliquez ici</a>
 
-___
 
-Le code est mis à disposition pour que différentes personnes puissent en avoir accès
+# Le code est mis à disposition pour que différentes personnes puissent en avoir accès
 
 C'est à dire qu'on peut le télécharger, modifier, commenter,...
 
@@ -17,7 +16,6 @@ Le préalable est de connaître:
   - Rollback
 
 
-___
 
 # Comment exécuter le projet après téléchargement ?
 
