@@ -25,8 +25,9 @@ Comment run le projet après téléchargement ?
   - Ouvrez le folder du projet avec un éditeur
   - Si vous utilisez VS code, ouvrez directement le terminal et executer le commandes ci-dessous
   - Si vous utiliser d'autre éditeurs ne vous permettant pas de faire tout cela, utiliser le CMD puis calibrer vous à la racine du dossier contenant le projet et éxecuter le commandes suivants
-  
-      
-        php artisan migrate
+
     
         php artisan serve
+  
+  - Cette commande va run votre serveur
+  - Ouvrez votre navigateur puis lancez la route idéale
