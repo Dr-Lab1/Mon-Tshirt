@@ -6,7 +6,9 @@ Pour voir le site qui est déjà en production <a href="http://mon-tshirt.42web.
 
 # Le code est mis à disposition pour que différentes personnes puissent en avoir accès
 
-C'est à dire qu'on peut le télécharger, modifier, commenter,...
+C'est à dire qu'on peut le télécharger, modifier, commenter,... 
+
+Tout est dans la branche *master*
 
 Le préalable est de connaître:
   - Le routage
