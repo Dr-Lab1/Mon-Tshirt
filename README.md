@@ -1,5 +1,5 @@
 # e-commerce
-Un site intégralement e-commerce monté avec laravel
+Un site e-commerce, intégralement monté avec *laravel* et le moteur de template *blade*
 
 Pour voir le site qui est déjà en production <a href="http://mon-tshirt.42web.io">cliquez ici</a>
 
