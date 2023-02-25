@@ -19,7 +19,7 @@ Le préalable est de connaître:
 
 ___
 
-Comment run le projet après téléchargement ?
+# Comment exécuter le projet après téléchargement ?
 
   - Importez d'abord la base de données qui se trouve dans la branche master, à la racine même du fichier et le fichier .sql est nommé *ecom.sql*
   - Ouvrez le folder du projet avec un éditeur
@@ -31,3 +31,6 @@ Comment run le projet après téléchargement ?
   
   - Cette commande va run votre serveur
   - Ouvrez votre navigateur puis lancez la route idéale
+
+
+# A vous...
