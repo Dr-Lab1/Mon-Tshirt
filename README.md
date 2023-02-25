@@ -19,6 +19,7 @@ Le préalable est de connaître:
 
 # Comment exécuter le projet après téléchargement ?
 
+  - Avoir composer
   - Importez d'abord la base de données qui se trouve dans la branche master, à la racine même du fichier et le fichier .sql est nommé *ecom.sql*
   - Ouvrez le folder du projet avec un éditeur
   - Si vous utilisez VS code, ouvrez directement le terminal et executer le commandes ci-dessous
@@ -32,3 +33,4 @@ Le préalable est de connaître:
 
 
 # A vous...
+Je travaillerai assez souvent sur ce readme pour que ça devienne plus clair au fil du temps
