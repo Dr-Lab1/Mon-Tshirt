@@ -27,6 +27,6 @@ Comment run le projet après téléchargement ?
   - Si vous utiliser d'autre éditeurs ne vous permettant pas de faire tout cela, utiliser le CMD puis calibrer vous à la racine du dossier contenant le projet et éxecuter le commandes suivants
   
       
-      php artisan migrate
+        php artisan migrate
     
-      php artisan serve
+        php artisan serve
