@@ -39,3 +39,6 @@ Je travaillerai assez souvent sur ce readme pour que ça devienne plus clair au 
 
 
 [![Top Langs](https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=Dr-Lab1)](https://github.com/Dr-Lab1/github-readme-stats)
+
+
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Dr-Lab1&theme=tokyonight)
