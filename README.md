@@ -36,3 +36,6 @@ Le préalable est de connaître:
 
 # A vous...
 Je travaillerai assez souvent sur ce readme pour que ça devienne plus clair au fil du temps
+
+
+[![Top Langs](https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=Dr-Lab1)](https://github.com/Dr-Lab1/github-readme-stats)
